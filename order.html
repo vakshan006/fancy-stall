@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Now | Style U Kadai</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo-text">Style U Kadai</div>
+        <ul id="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="order.html">Order Now</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section style="margin-top: 80px;">
+        <div class="section-title">
+            <h2>Order / Inquiry 🛍️</h2>
+            <p>Fill out the form to order via WhatsApp!</p>
+        </div>
+
+        <div class="form-container glass-card">
+            <form id="order-form">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" placeholder="Enter your full name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" placeholder="Enter your WhatsApp number" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="product">Select Product</label>
+                    <select id="product" required>
+                        <option value="" disabled selected>Choose a product</option>
+                        <option value="Coin Chain">Coin Chain (LKR 250)</option>
+                        <option value="Pendant Chain">Pendant Chain (LKR 250)</option>
+                        <option value="Bracelet">Bracelet (LKR 180)</option>
+                        <option value="Fashion Earrings">Fashion Earrings (LKR 200)</option>
+                        <option value="Jimiki Earrings">Jimiki Earrings (LKR 200)</option>
+                        <option value="Anklet">Anklet (LKR 250)</option>
+                        <option value="Hair Claw Clips">Hair Claw Clips (LKR 250)</option>
+                        <option value="Keytags">Keytags (LKR 100 - 200)</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="quantity">Quantity</label>
+                    <input type="number" id="quantity" min="1" value="1" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message / Note</label>
+                    <textarea id="message" rows="4" placeholder="Any specific requirements or questions?"></textarea>
+                </div>
+
+                <div style="background: rgba(177, 156, 217, 0.1); padding: 15px; border-radius: 10px; margin-bottom: 2rem;">
+                    <p style="font-size: 0.9rem; color: #666;">
+                        <i class="fas fa-info-circle" style="color: var(--accent);"></i> 
+                        <strong>Delivery Info:</strong> Currently, we offer <strong>Pickup at Oxford College Stall</strong>. Domestic shipping available for orders over LKR 2000.
+                    </p>
+                </div>
+
+                <button type="submit" class="btn btn-primary" style="width: 100%; font-size: 1.1rem; padding: 15px;">
+                    Send Order via WhatsApp <i class="fab fa-whatsapp" style="margin-left: 10px;"></i>
+                </button>
+            </form>
+        </div>
+
+        <div style="text-align: center; margin-top: 3rem;">
+            <p>Prefer to browse more? <a href="products.html" style="color: var(--accent); text-decoration: underline;">Back to Products</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="logo-text" style="color: white; font-size: 2rem;">Style U Kadai</div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <p>&copy; 2026 Style U Kadai - Student Run Stall at Oxford College ✨</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

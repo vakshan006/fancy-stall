@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products | Style U Kadai</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo-text">Style U Kadai</div>
+        <ul id="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="order.html">Order Now</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section style="margin-top: 80px;">
+        <div class="section-title">
+            <h2>Our Collection 🛍️</h2>
+            <p>Trendy, Affordable, and Unique Accessories</p>
+        </div>
+
+        <!-- Filter / Tabs -->
+        <div style="text-align: center; margin-bottom: 3rem; display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
+            <button class="btn btn-primary filter-btn active" data-filter="all" style="padding: 10px 20px;">All ✨</button>
+            <button class="btn filter-btn" data-filter="chains" style="background: white; border: 1px solid var(--primary); padding: 10px 20px;">Chains 📿</button>
+            <button class="btn filter-btn" data-filter="earrings" style="background: white; border: 1px solid var(--primary); padding: 10px 20px;">Earrings 💎</button>
+            <button class="btn filter-btn" data-filter="hair" style="background: white; border: 1px solid var(--primary); padding: 10px 20px;">Hair 🎀</button>
+            <button class="btn filter-btn" data-filter="bracelets" style="background: white; border: 1px solid var(--primary); padding: 10px 20px;">Bracelets 💍</button>
+            <button class="btn filter-btn" data-filter="anklets" style="background: white; border: 1px solid var(--primary); padding: 10px 20px;">Anklets 🦶</button>
+            <button class="btn filter-btn" data-filter="extras" style="background: white; border: 1px solid var(--primary); padding: 10px 20px;">Extras 🔑</button>
+        </div>
+
+        <div class="product-grid">
+            <!-- Coin Chain -->
+            <div class="product-card glass-card" data-category="chains">
+                <div class="product-badge">🔥 Popular</div>
+                <div class="product-img"><img src="images/coin_chain.png" alt="Coin Chain"></div>
+                <h3>Coin Chain ✨</h3>
+                <p>Elegant gold coin chain necklace — perfect for any outfit!</p>
+                <p class="product-price">LKR 250</p>
+                <a href="order.html" class="btn btn-primary">Add to Order</a>
+            </div>
+
+            <!-- Pendant Chain -->
+            <div class="product-card glass-card" data-category="chains">
+                <div class="product-badge">💖 Bestseller</div>
+                <div class="product-img"><img src="images/pendant_chain.png" alt="Pendant Chain"></div>
+                <h3>Pendant Chain 💫</h3>
+                <p>Dainty pendant necklace with a gorgeous charm detail</p>
+                <p class="product-price">LKR 250</p>
+                <a href="order.html" class="btn btn-primary">Add to Order</a>
+            </div>
+
+            <!-- Bracelet -->
+            <div class="product-card glass-card" data-category="bracelets">
+                <div class="product-badge">🌟 Trendy</div>
+                <div class="product-img"><img src="images/bracelets.png" alt="Bracelet"></div>
+                <h3>Bracelet 💍</h3>
+                <p>Stylish adjustable bracelet to match your vibe</p>
+                <p class="product-price">LKR 180</p>
+                <a href="order.html" class="btn btn-primary">Add to Order</a>
+            </div>
+
+            <!-- Earrings -->
+            <div class="product-card glass-card" data-category="earrings">
+                <div class="product-img"><img src="images/fashion_earrings.png" alt="Fashion Earrings"></div>
+                <h3>Fashion Earrings 💎</h3>
+                <p>Trendy dangling earrings for everyday glam</p>
+                <p class="product-price">LKR 200</p>
+                <a href="order.html" class="btn btn-primary">Add to Order</a>
+            </div>
+
+            <!-- Jimiki -->
+            <div class="product-card glass-card" data-category="earrings">
+                <div class="product-badge">👑 Traditional</div>
+                <div class="product-img"><img src="images/jimiki.png" alt="Jimiki Earrings"></div>
+                <h3>Jimiki Earrings 👑</h3>
+                <p>Beautiful traditional Jimikis for special occasions</p>
+                <p class="product-price">LKR 200</p>
+                <a href="order.html" class="btn btn-primary">Add to Order</a>
+            </div>
+
+            <!-- Anklet -->
+            <div class="product-card glass-card" data-category="anklets">
+                <div class="product-badge">✨ New</div>
+                <div class="product-img"><img src="images/anklet.png" alt="Anklet"></div>
+                <h3>Anklet 🦶✨</h3>
+                <p>Delicate silver anklet with charming details</p>
+                <p class="product-price">LKR 250</p>
+                <a href="order.html" class="btn btn-primary">Add to Order</a>
+            </div>
+
+            <!-- Hair Claw Clips -->
+            <div class="product-card glass-card" data-category="hair">
+                <div class="product-badge">🎀 Cute</div>
+                <div class="product-img"><img src="images/hair_claw_clips.png" alt="Hair Claw Clips"></div>
+                <h3>Hair Claw Clips 🎀</h3>
+                <p>Pastel matte claw clips for the perfect hair day</p>
+                <p class="product-price">LKR 250</p>
+                <a href="order.html" class="btn btn-primary">Add to Order</a>
+            </div>
+
+            <!-- Keytags -->
+            <div class="product-card glass-card" data-category="extras">
+                <div class="product-badge">🔑 Fun</div>
+                <div class="product-img"><img src="images/keytags.png" alt="Keytags"></div>
+                <h3>Cute Keytags 🔑</h3>
+                <p>Adorable keychains & keytags — great as gifts!</p>
+                <p class="product-price">LKR 100 - 200</p>
+                <a href="order.html" class="btn btn-primary">Add to Order</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="logo-text" style="color: white; font-size: 2rem;">Style U Kadai</div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <p>&copy; 2026 Style U Kadai - Student Run Stall at Oxford College ✨</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

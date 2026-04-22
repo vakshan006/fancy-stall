@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StyleU Kadai | Trendy Fancy Items at Affordable Prices</title>
+    <meta name="description" content="StyleU Kadai - Your one-stop shop for trendy bracelets, earrings, chains, claw clips and more. Student-run stall at Oxford College, Batticaloa.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="#" class="logo">StyleU <span>Kadai</span></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#lucky">Lucky Draw</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="order.html" class="btn btn-primary" style="padding:10px 24px;">Order Now</a></li>
+            </ul>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+        <div class="hero-shape"></div>
+        <div class="hero-shape"></div>
+        <div class="hero-shape"></div>
+        <div class="hero-content">
+            <div class="hero-badge">✨ Student-Run Stall at Oxford College</div>
+            <h1>Welcome to<br><span class="highlight">StyleU Kadai</span></h1>
+            <p>Trendy fancy items at affordable prices — chains, earrings, bracelets, clips & more! 💖</p>
+            <div class="hero-buttons">
+                <a href="#products" class="btn btn-primary">Shop Now 🛍️</a>
+                <a href="#lucky" class="btn btn-outline">Try Lucky Draw 🎁</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section class="products-section section-padding" id="products">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Our Collection 🛍️</h2>
+                <p>Handpicked trendy items just for you — all at student-friendly prices!</p>
+            </div>
+
+            <div class="product-filters reveal">
+                <button class="filter-btn active" data-filter="all">All ✨</button>
+                <button class="filter-btn" data-filter="chains">Chains 📿</button>
+                <button class="filter-btn" data-filter="earrings">Earrings 💎</button>
+                <button class="filter-btn" data-filter="bracelets">Bracelets 💍</button>
+                <button class="filter-btn" data-filter="hair">Hair 🎀</button>
+                <button class="filter-btn" data-filter="anklets">Anklets 🦶</button>
+                <button class="filter-btn" data-filter="extras">Extras 🔑</button>
+            </div>
+
+            <div class="product-grid">
+                <div class="product-card reveal" data-category="chains">
+                    <span class="product-badge">🔥 Popular</span>
+                    <div class="product-img"><img src="images/coin_chain.png" alt="Coin Chain"></div>
+                    <div class="product-info">
+                        <h3>Coin Chain ✨</h3>
+                        <p class="desc">Elegant gold coin chain necklace — perfect for any outfit</p>
+                        <div class="price-row">
+                            <span class="price">LKR 250</span>
+                            <a href="https://wa.me/94778633468?text=Hi!%20I%20want%20to%20order%20Coin%20Chain%20(LKR%20250)" class="btn btn-whatsapp" target="_blank"><i class="fab fa-whatsapp"></i> Order</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card reveal" data-category="chains">
+                    <span class="product-badge">💖 Bestseller</span>
+                    <div class="product-img"><img src="images/pendant_chain.png" alt="Pendant Chain"></div>
+                    <div class="product-info">
+                        <h3>Pendant Chain 💫</h3>
+                        <p class="desc">Dainty pendant necklace with a gorgeous charm detail</p>
+                        <div class="price-row">
+                            <span class="price">LKR 250</span>
+                            <a href="https://wa.me/94778633468?text=Hi!%20I%20want%20to%20order%20Pendant%20Chain%20(LKR%20250)" class="btn btn-whatsapp" target="_blank"><i class="fab fa-whatsapp"></i> Order</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card reveal" data-category="bracelets">
+                    <span class="product-badge">🌟 Trendy</span>
+                    <div class="product-img"><img src="images/bracelets.png" alt="Bracelet"></div>
+                    <div class="product-info">
+                        <h3>Bracelet 💍</h3>
+                        <p class="desc">Stylish adjustable bracelet to match your vibe</p>
+                        <div class="price-row">
+                            <span class="price">LKR 180</span>
+                            <a href="https://wa.me/94778633468?text=Hi!%20I%20want%20to%20order%20Bracelet%20(LKR%20180)" class="btn btn-whatsapp" target="_blank"><i class="fab fa-whatsapp"></i> Order</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card reveal" data-category="earrings">
+                    <div class="product-img"><img src="images/fashion_earrings.png" alt="Fashion Earrings"></div>
+                    <div class="product-info">
+                        <h3>Fashion Earrings 💎</h3>
+                        <p class="desc">Trendy dangling earrings for everyday glam</p>
+                        <div class="price-row">
+                            <span class="price">LKR 200</span>
+                            <a href="https://wa.me/94778633468?text=Hi!%20I%20want%20to%20order%20Fashion%20Earrings%20(LKR%20200)" class="btn btn-whatsapp" target="_blank"><i class="fab fa-whatsapp"></i> Order</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card reveal" data-category="earrings">
+                    <span class="product-badge">👑 Traditional</span>
+                    <div class="product-img"><img src="images/jimiki.png" alt="Jimiki Earrings"></div>
+                    <div class="product-info">
+                        <h3>Jimiki Earrings 👑</h3>
+                        <p class="desc">Beautiful traditional Jimikis for special occasions</p>
+                        <div class="price-row">
+                            <span class="price">LKR 200</span>
+                            <a href="https://wa.me/94778633468?text=Hi!%20I%20want%20to%20order%20Jimiki%20Earrings%20(LKR%20200)" class="btn btn-whatsapp" target="_blank"><i class="fab fa-whatsapp"></i> Order</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card reveal" data-category="anklets">
+                    <span class="product-badge">✨ New</span>
+                    <div class="product-img"><img src="images/anklet.png" alt="Anklet"></div>
+                    <div class="product-info">
+                        <h3>Anklet 🦶✨</h3>
+                        <p class="desc">Delicate silver anklet with charming details</p>
+                        <div class="price-row">
+                            <span class="price">LKR 250</span>
+                            <a href="https://wa.me/94778633468?text=Hi!%20I%20want%20to%20order%20Anklet%20(LKR%20250)" class="btn btn-whatsapp" target="_blank"><i class="fab fa-whatsapp"></i> Order</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card reveal" data-category="hair">
+                    <span class="product-badge">🎀 Cute</span>
+                    <div class="product-img"><img src="images/hair_claw_clips.png" alt="Hair Claw Clips"></div>
+                    <div class="product-info">
+                        <h3>Hair Claw Clips 🎀</h3>
+                        <p class="desc">Pastel matte claw clips for the perfect hair day</p>
+                        <div class="price-row">
+                            <span class="price">LKR 250</span>
+                            <a href="https://wa.me/94778633468?text=Hi!%20I%20want%20to%20order%20Hair%20Claw%20Clips%20(LKR%20250)" class="btn btn-whatsapp" target="_blank"><i class="fab fa-whatsapp"></i> Order</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card reveal" data-category="extras">
+                    <span class="product-badge">🔑 Fun</span>
+                    <div class="product-img"><img src="images/keytags.png" alt="Keytags"></div>
+                    <div class="product-info">
+                        <h3>Cute Keytags 🔑</h3>
+                        <p class="desc">Adorable keychains & keytags — great as gifts!</p>
+                        <div class="price-row">
+                            <span class="price">LKR 100–200</span>
+                            <a href="https://wa.me/94778633468?text=Hi!%20I%20want%20to%20order%20Keytags" class="btn btn-whatsapp" target="_blank"><i class="fab fa-whatsapp"></i> Order</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LUCKY DRAW -->
+    <section class="lucky-section section-padding" id="lucky">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>🎁 Lucky Draw Game</h2>
+                <p>Pick a random number and win exciting prizes!</p>
+            </div>
+
+            <div class="lucky-container reveal">
+                <div class="lucky-info">
+                    <div class="price-tag">ONLY LKR 100 💸</div>
+                    <p>Every bag is a guaranteed winner! Choose your lucky number and discover what's inside ✨</p>
+                    <div class="features">
+                        <span>✅ Guaranteed Win</span>
+                        <span>✅ Student Prices</span>
+                        <span>✅ Premium Prizes</span>
+                    </div>
+                </div>
+
+                <div class="lucky-grid">
+                    <div class="lucky-bag" data-number="1"><i class="fas fa-gift"></i><span>1</span></div>
+                    <div class="lucky-bag" data-number="2"><i class="fas fa-gift"></i><span>2</span></div>
+                    <div class="lucky-bag" data-number="3"><i class="fas fa-gift"></i><span>3</span></div>
+                    <div class="lucky-bag" data-number="4"><i class="fas fa-gift"></i><span>4</span></div>
+                    <div class="lucky-bag" data-number="5"><i class="fas fa-gift"></i><span>5</span></div>
+                    <div class="lucky-bag" data-number="6"><i class="fas fa-gift"></i><span>6</span></div>
+                    <div class="lucky-bag" data-number="7"><i class="fas fa-gift"></i><span>7</span></div>
+                    <div class="lucky-bag" data-number="8"><i class="fas fa-gift"></i><span>8</span></div>
+                    <div class="lucky-bag" data-number="9"><i class="fas fa-gift"></i><span>9</span></div>
+                    <div class="lucky-bag" data-number="10"><i class="fas fa-gift"></i><span>10</span></div>
+                    <div class="lucky-bag" data-number="11"><i class="fas fa-gift"></i><span>11</span></div>
+                    <div class="lucky-bag" data-number="12"><i class="fas fa-gift"></i><span>12</span></div>
+                </div>
+
+                <div id="lucky-result">
+                    <div class="emoji">🎊</div>
+                    <h3 id="prize-title"></h3>
+                    <p id="prize-desc"></p>
+                    <button onclick="location.reload()" class="btn btn-gold" style="margin-top:24px;">Play Again 🔄</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about-section section-padding" id="about">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>About Us ✨</h2>
+                <p>A small stall with big dreams</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-image reveal">
+                    <img src="images/hero.png" alt="StyleU Kadai Stall">
+                </div>
+                <div class="about-content reveal">
+                    <h3>We Are StyleU Kadai 💖</h3>
+                    <p>We are a student-run stall offering trendy and affordable fancy items for everyone. Born from a love for fashion and a desire for affordability, we bring the latest accessories right to your campus.</p>
+                    <p>Whether you're looking for that perfect pair of Jimikis, a cute keytag, or a stylish chain — we've got you covered at prices that won't break the bank! 🎉</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <div class="num">8+</div>
+                            <div class="label">Product Types</div>
+                        </div>
+                        <div class="stat">
+                            <div class="num">100+</div>
+                            <div class="label">Happy Customers</div>
+                        </div>
+                        <div class="stat">
+                            <div class="num">LKR 100</div>
+                            <div class="label">Starting Price</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact-section section-padding" id="contact">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Get in Touch 📞</h2>
+                <p>Visit us at Oxford College or reach out anytime!</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-cards reveal">
+                    <div class="contact-card">
+                        <div class="icon pink"><i class="fas fa-phone"></i></div>
+                        <div class="details">
+                            <h4>Phone</h4>
+                            <p>077 863 3468</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="icon green"><i class="fab fa-whatsapp"></i></div>
+                        <div class="details">
+                            <h4>WhatsApp</h4>
+                            <p>077 863 3468</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="icon purple"><i class="fas fa-envelope"></i></div>
+                        <div class="details">
+                            <h4>Email</h4>
+                            <p>hello@styleukadai.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="icon gold"><i class="fas fa-location-dot"></i></div>
+                        <div class="details">
+                            <h4>Location</h4>
+                            <p>Oxford College, Batticaloa, Sri Lanka</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="icon pink"><i class="fas fa-clock"></i></div>
+                        <div class="details">
+                            <h4>Stall Hours</h4>
+                            <p>25th & 26th April 2026 | 8 AM – 4 PM</p>
+                        </div>
+                    </div>
+                    <a href="https://wa.me/94778633468" target="_blank" class="btn btn-whatsapp" style="width:100%; padding:16px; font-size:1.05rem;">
+                        <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+                    </a>
+                </div>
+
+                <div class="contact-map reveal">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h4>Oxford College Batticaloa Campus</h4>
+                    <p style="color: var(--dark-light); margin-bottom: 20px;">Find us near the main entrance during the stall event!</p>
+                    <a href="https://maps.app.goo.gl/2Fhjcp3o9boEQCo56" target="_blank" class="btn btn-primary">
+                        <i class="fas fa-external-link-alt"></i> Open in Google Maps
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">StyleU <span>Kadai</span></div>
+                    <p>Your one-stop shop for trendy, affordable accessories. Student-run with love at Oxford College ✨</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/94778633468" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h4>Quick Links</h4>
+                    <div class="footer-links">
+                        <a href="#hero">Home</a>
+                        <a href="#products">Products</a>
+                        <a href="#lucky">Lucky Draw</a>
+                        <a href="#about">About Us</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+                <div>
+                    <h4>Products</h4>
+                    <div class="footer-links">
+                        <a href="#products">Coin Chain</a>
+                        <a href="#products">Pendant Chain</a>
+                        <a href="#products">Earrings</a>
+                        <a href="#products">Bracelets</a>
+                        <a href="#products">Keytags</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 StyleU Kadai — Student Run Stall at Oxford College ✨</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
